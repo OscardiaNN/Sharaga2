@@ -1,0 +1,756 @@
+.Verh{
+    width: 1900px;
+    height: 75px;
+    position: fixed;
+    background-color: rgb(182, 178, 178);
+    z-index: 2;
+}
+.logF{
+    width: 75px;
+    height: 75px;
+}
+.logT{
+    text-decoration: none;
+    position: absolute;
+    font-size: 25px;
+    margin-top: 30px;
+    margin-left: 0px;
+    color: white;
+}
+.seaarch{
+    position: absolute;
+    width: 900px;
+    height: 50px;
+    margin-left: 500px;
+    margin-top: -65px;
+}
+.log2{
+    position: absolute;
+    font-size: 25px;
+    margin-left: 1400px;
+    margin-top: 30px;
+    text-decoration: none;
+    color:white;
+}
+.log2:hover{
+    color: black;
+}
+.open-popup{
+    position: absolute;
+    font-size: 25px;
+    margin-left: 1580px;
+    margin-top: 30px;
+    text-decoration: none;
+    color:white;
+    border: none;
+    background-color: rgb(182, 178, 178);
+    font-size: 25px;
+}
+.open-popup:hover{
+    color: black;
+}
+.logA1{
+    position: absolute;
+    font-size: 25px;
+    margin-left: 1720px;
+    margin-top: 30px;
+    text-decoration: none;
+    color:white;
+}
+.logA1:hover{
+    color: black;
+}
+.body{
+    z-index: 0;
+}
+.princip{
+    color:grey;
+    text-align: center;
+    font-size: 48px;
+    position: absolute;
+    margin-left: 100px;
+    margin-top: 150px;
+    width: 800px;
+    height: 600px;
+}
+#slider{
+    position: absolute;
+    height: 800px;
+    width: 1100px;
+    margin-left: 1000px;
+    margin-top: 250px;
+}
+
+#slider img{
+    height: 500px;
+    width: 850px;
+    display: none;
+}
+
+#slider img:first-child{
+    display: block;
+}
+.Fligh{
+    color: grey;
+    position: absolute;
+    margin-left: 1250px;
+    margin-top: 190px;
+    font-size: 40px;
+}
+.bilet{
+text-align: center;
+background-color: rgb(182, 178, 178);
+position: absolute;
+margin-top: 900px;
+margin-left: -6px;
+width: 1901px;
+height: 425px;
+}
+
+.ot{
+  position: absolute;
+   width: 300px;
+   margin-left: -180px;
+   margin-top: 150px;
+   height: 52px;
+   
+}
+.ot1{
+    position: absolute;
+    width: 300px;
+    margin-left: -490px;
+    margin-top: 150px;
+    height: 50px;
+    z-index: 0;
+}
+.date{
+    position: absolute;
+    width: 300px;
+    margin-left: 100px;
+    
+    z-index: 0;
+}
+
+.ot2{
+    position: absolute;
+    width: 300px;
+    height: 55px;
+    z-index: 0;
+    margin-left: 435px;
+    margin-top: 150px;
+    border-top-right-radius: 10%;
+    border-bottom-right-radius: 10%;
+}
+.ot3{
+    position: absolute;
+    width: 300px;
+    height: 50px;
+    margin-top: 150px;
+    margin-left: -800px;
+    border-top-left-radius: 10%;
+    border-bottom-left-radius: 10%;
+}
+.ot4{
+    position: absolute;
+    width: 300px;
+    height: 52px;
+    margin-top: 150px;
+    margin-left: 127px;
+}
+.go{
+    position: absolute;
+    width: 150px;
+    height: 50px;
+    margin-top: 250px;
+    margin-left: -100px;
+    border-radius: 10%;
+}
+.tit{
+ position: absolute;
+  color:white;
+  margin-left: 780px;
+  margin-top: 120px;
+}
+.tit1{
+    position: absolute;
+    color:white;
+    margin-left: 1085px;
+  margin-top: 120px;
+}
+.tit2{
+    position: absolute;
+    color:white;
+    margin-left: 1395px;
+  margin-top: 120px;
+}
+.sellT{
+    position: absolute;
+   font-size: 30px;
+   color: white;
+   margin-top: 50px;
+   margin-left: 760px;
+}
+.actions{
+    position: absolute;
+   margin-top: 1400px;
+}
+
+.act1T{
+  border:2px solid black;
+  width: 300px;
+  height: 400px;
+  font-size: 21px;
+  text-align: center;
+  color:white;
+  background-color:rgb(182, 178, 178);
+  border-color:rgb(182, 178, 178) ;
+}
+.act1F{
+    position: absolute;
+    height: 405px;
+    width: 500px;
+    margin-left: 305px;
+    margin-top: -405px;
+}
+.act2T{
+    margin-top: 10px;
+    border:2px solid black;
+    width: 300px;
+    height: 400px;
+    font-size: 21px;
+    text-align: center;
+    color:white;
+    background-color:rgb(182, 178, 178);
+    border-color:rgb(182, 178, 178) ;
+  }
+  .act2F{
+      position: absolute;
+      height: 405px;
+      width: 500px;
+      margin-left: 95px;
+      margin-top: -251px;
+  }
+  .act3{
+    position: absolute;
+    margin-top: -830px;
+    margin-left: 1080px;
+  }
+  .act4{
+    position: absolute;
+    margin-top: -415px;
+    margin-left: 1080px;
+  }
+  .actT{
+    position: absolute;
+    font-size: 35px;
+    color:rgb(182, 178, 178);
+    margin-top: -60px;
+    margin-left: 900px;
+    z-index: 1;
+  }
+.reg{
+    background-color: rgb(182, 178, 178);;
+    position: absolute;
+    width: 1900px;
+    height: 700px;
+    margin-top: 2230px;
+  }
+.close{
+    width: 950px;
+    height: 600px;
+    margin-top: 50px;
+    margin-left: 10px;
+    border:2px solid white;
+    text-align: center;
+}
+.closetxt{
+    position: absolute;
+     margin-top: 100px;
+     margin-left: -250px;
+     width: 500px;
+     height: 30px;
+}
+.closeBut{
+    position: absolute;
+    margin-top: 400px;
+    height: 50px;
+    margin-left: -50px;
+}
+.txtcl{
+    font-size: 35px;
+    color: white;
+}
+.otziv{
+    position: absolute;
+    margin-top: 2280px;
+    margin-left: 1000px;
+    width: 850px;
+    height: 600px;
+    border:2px solid white;
+    background-image: url(../img/fonotziv.jpg);
+    overflow: scroll;
+}
+.otzivv{
+    width: 850px;
+    height: 50px;
+    background-color: white;
+    font-size: 30px;
+    color:rgb(182, 178, 178);
+    text-align: center;
+}
+.txtOT{
+position: inherit;
+background-color: white;
+width: 250px;
+height:100px;
+border-radius: 15%;
+margin-top: 30px;
+}
+.sharik{
+    border:2px solid black;
+    border-radius: 90%;
+    width: 40px;
+    height: 40px;
+    margin-left: 20px;
+}
+.ava{
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    margin-top: -41px;
+    margin-left: 22px;
+}
+.smsT{
+    position: absolute;
+    margin-left: 70px;
+    margin-top: -30px;
+}
+.footer{ 
+	background: rgb(182, 178, 178);
+	position: absolute;
+	width: 1900px;
+    margin-top: 2960px;
+    margin-left: 0px;
+    
+}
+.footer1{
+	padding: 60px 0px;
+	background: white;
+	position: absolute;
+	width: 100%;
+	left: 0;
+	bottom: 0;
+}
+.footer-block{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+.footer-link{
+  font-size: 18px;
+  color: #595959;
+  text-decoration: none;
+}
+.footer-nav {
+  margin: auto;
+  word-spacing: 20px;
+}
+.footer-logo{
+	margin-left: 125px;
+}
+.social-links{
+	word-spacing: 20px;
+	margin-right: 125px;
+
+}
+.test-0-phone{
+	word-spacing: 0px;
+	margin-top: 10px;
+}
+.conteiner{
+	max-width: 1200px;
+	margin: auto;
+	position: relative;
+	height: 100%;
+}
+.prikol{
+    width: 70px;
+    height: 70px;
+}
+.prikoli{
+    width: 80px;
+    height: 80px;
+}
+.bron{
+    position: absolute;
+    width: 1900px;
+    height: 50px;
+    background-color: rgb(182, 178, 178);;
+    margin-top: 100px;
+    text-align: center;
+    color: white;
+    font-size: 35px;
+    margin-left: 00px;
+    z-index: 1;
+}
+.reisi{
+    position: absolute;
+    width: 1400px;
+    height: 150px;
+    background-color:rgb(247, 220, 185);
+    color:black;
+    z-index: 0;
+    margin-left: 250px;
+    margin-top: 50px;
+}
+.resT{
+    
+    text-align: center;
+    margin-left: 50px;
+    border-right: 2px solid black;
+    width: 200px;
+    height: 150px;
+    font-size: 25px;
+    margin-top: 0px; 
+}
+.resTcent{
+    position: absolute;
+    border-right:2px solid black;
+    width: 1000px;
+    height: 150px;
+    margin-top: -175px;
+    margin-left: 250px;
+    font-size: 25px;
+}
+.brton{
+    position: absolute;
+    border-radius: 25%;
+    background-color:rgb(182, 178, 178);
+    border-color:rgb(182, 178, 178);
+    color: white;
+    height: 50px;
+    margin-left: 575px;
+    margin-top: -80px;
+}
+.heart{
+position: absolute;
+width: 50px;
+height: 50px;
+}
+.F{
+    margin-left: -3px;
+    width: 40px;
+    height: 40px;
+}
+#button{
+    position: absolute;
+    margin-left: 600px;
+    margin-top: -170px;
+}
+.reisi2{
+    position: absolute;
+    width: 1400px;
+    height: 150px;
+    background-color:rgb(247, 220, 185);
+    color:black;
+    z-index: 0;
+    margin-left: 250px;
+    margin-top: 350px;
+    z-index: 0;
+}
+.resTcent1{
+    position: absolute;
+    border-right:2px solid black;
+    width: 1000px;
+    height: 150px;
+    margin-top: -175px;
+    margin-left: 250px;
+    font-size: 25px;
+    z-index: 1;
+    text-align: center;
+}
+.brton1{
+    position: absolute;
+    border-radius: 25%;
+    background-color:rgb(182, 178, 178);
+    border-color:rgb(182, 178, 178);
+    color: white;
+    height: 50px;
+    margin-left: 1275px;
+    margin-top: -80px;
+    z-index: 0;
+}
+#button1{
+    position: absolute;
+    margin-left: 1300px;
+    margin-top: -170px;
+}
+.reisi3{
+    position: absolute;
+    width: 1400px;
+    height: 150px;
+    background-color:rgb(247, 220, 185);
+    color:black;
+    z-index: 0;
+    margin-left: 250px;
+    margin-top: 510px;
+    z-index: 0;
+    
+}
+#button2{
+    position: absolute;
+    margin-left: 1300px;
+    margin-top: -170px;
+}
+.footer2{ 
+	background: rgb(182, 178, 178);
+	position: absolute;
+	width: 1900px;
+    margin-top: 855px;
+    margin-left: 0px;
+    
+}
+.brTT{
+    font-size: 20px;
+    position: absolute;
+    margin-left: 1280px;
+    margin-top: 50px;
+}
+.brTT1{
+    font-size: 20px;
+    position: absolute;
+    margin-left: 1280px;
+    margin-top: 70px;
+}
+.brTT2{
+    font-size: 20px;
+    position: absolute;
+    margin-left: 1280px;
+    margin-top: 80px;
+    
+}
+.opl1{
+    position: absolute;
+    text-align: center;
+    background-color: rgb(247, 220, 185);
+    width: 900px;
+    height: 1200px;
+    margin-left: 500px;
+    margin-top: 80px;
+    font-size: 25px;
+}
+
+#rezultat2{
+    border-bottom: 2px solid black;
+   
+    
+}
+#rezultat2:before { 
+    content: "Итоговая стоимость: ";
+    
+ }
+.footer3{
+    background: rgb(182, 178, 178);
+	position: absolute;
+	width: 1900px;
+    margin-top: 150px;
+    margin-left: -500px;
+}
+.modal{
+    position: fixed;
+    left: 0;
+    top:0;
+    width: 100%;
+    height: 100vh;
+    z-index: 99999;
+    background-color: rgba(0, 0, 0, .3);
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    overflow-y:auto;
+    visibility: hidden;
+    opacity: 0;
+    transition: opacity.4s, visibility.4s;
+}
+.modal__box{
+    max-width: 500px;
+    padding: 45px;
+    z-index: 1;
+    margin: 30px 15px;
+    background-color: white;
+    transform: scale(0);
+    transition: transform .8s;
+    text-align: center;
+}
+
+.modal.open{
+    visibility: visible;
+    opacity: 1;
+}
+
+.modal.open .modal__box{
+    transform: scale(1);
+}
+.rottogoimel{
+    width: 30px;
+    height: 30px;
+}
+#close-my-modal-btn{
+    position: absolute;
+    border: none;
+    background-color: white;
+    margin-left: 110px;
+  margin-top: -40px;
+}
+.regis{
+    color:green;
+}
+.refT{
+    font-size: 35px;
+   
+}
+.refTT{
+    position: absolute;
+    margin-top: 100px;
+    margin-left: 40px;
+    text-align: center;
+    background-color:rgb(247, 220, 185);
+    width: 1800px;
+    height: 900px;
+}
+.telIN{
+    width: 500px;
+    height: 50px;
+}
+.bttt{
+    position: absolute;
+    margin-left: -320px;
+    margin-top: 100px;
+    width: 120px;
+    height: 50px;
+}
+.block{
+    position: absolute;
+    margin-left: 800px;
+    display: none;
+    color:red;
+    font-size: 20px;
+}
+.footer5{
+    margin-top: 200px;
+    width: 2000px;
+    background-color:rgb(182, 178, 178); 
+    margin-left: -100px;
+}
+.acc{
+    position: absolute;
+    border:2px solid black;
+    margin-top: 80px;
+    width: 1890px;
+    height: 800px;
+}
+.shapka{
+    position: relative;
+    font-size: 50px ;
+    height: 110px;
+    width: 1890px;
+    background-image: url(../img/fonotziv.jpg);
+    text-align: center;
+    color:white;
+}
+.leftT{
+    position: relative;
+    margin-top: 52px;
+    width: 400px;
+    height:690px;
+    text-align: center;
+    background-color: rgb(87, 162, 233);
+    color: white;
+    font-size: 25px;
+}
+.zv{
+    position: absolute;
+    margin-top: 50px;
+    margin-left: -245px;
+    width: 250px;
+    height: 50px;
+}
+.zvv{
+    margin-top: 90px ;
+}
+.leftR{
+    text-align: center;
+    width: 1490px;
+    height: 80px;
+    margin-left: 400px;
+    margin-top: -690px;
+    background-color: rgb(87, 162, 233);
+    border-left: 2px solid black;
+}
+.brn1{
+    border-bottom: 2px solid black;
+    width: 1490px;
+    height: 150px;
+    margin-left: 400px;
+    background-color:rgb(247, 220, 185);
+    text-align: center;
+    color:black;
+    font-size: 20px;
+}
+.brn2{
+    border-bottom: 2px solid black;
+    width: 1490px;
+    height: 150px;
+    margin-left: 400px;
+    background-color:rgb(247, 220, 185);
+    text-align: center;
+    color:black;
+    font-size: 20px;
+}
+.brn3{
+    border-bottom: 2px solid black;
+    width: 1490px;
+    height: 150px;
+    margin-left: 400px;
+    background-color:rgb(247, 220, 185);
+    text-align: center;
+    color:black;
+    font-size: 20px;
+}
+.brn4{
+    width: 1490px;
+    height: 153px;
+    margin-left: 400px;
+    background-color:rgb(247, 220, 185);
+    text-align: center;
+    color:black;
+    font-size: 20px;
+}
+.footer6{
+    background: rgb(182, 178, 178);
+	position: absolute;
+	width: 1900px;
+    margin-top: 890px;
+    margin-left: 0px;
+}
+.act3F{
+    position: absolute;
+    height: 405px;
+    width: 500px;
+    margin-left: 130px;
+    margin-top: -202px;
+}
+.act4F{
+    position: absolute;
+    height: 405px;
+    width: 500px;
+    margin-left: 70px;
+    margin-top: -225px;
+}
+.da22{
+    z-index: 1;
+    color: #595959;
+    position: absolute;
+    font-size: 20px;
+    
+}

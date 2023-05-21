@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Document</title>
+</head>
+<body>
+  <header>
+    <div class="Verh">
+      <img class="logF" src="img/Logo.png">
+      <a class="logT" href="index.html">FlightPool</p>
+      <a class="log2" href="index.html#bilet">Поиск билетов</a>
+      <button class="open-popup" id="open-modal-btn" href="">Профиль</button >
+      <a class="logA1" href="index.html#act222">Акции</a>
+    </div>
+</header>
+
+<div class="modal" id="my-modal">
+<div class="modal__box">
+<button id="close-my-modal-btn">
+<img class="rottogoimel" src="img/close.png">
+</button>
+<form action="laspl.html">
+  <h2>Вход</h2>
+  Введите телефон:
+  <br>
+  <input type="tel"  required>
+  <br>
+  Введите пароль:
+  <br>
+  <input class="pass" type="password" placeholder="Введите пароль"  pattern="(?=.*\d)(?=.*[\W_]).{7,}" title="Минимум 7 значений и 1 цифра" required>
+  <br><br>
+  <button>Войти </button>
+  <br>
+  Нет аккаунта?<br><a class="regis" href="register.html">Зарегестрируйся</a> прямо сейчас!
+</form>
+</div>
+</div>
+ <div class="bron">
+    Доступные рейсы
+     <div class="reisi">
+       <p class="resT">
+        Рейс №58 <br><br><br> Судно: Победа
+       </p>
+       <p class="resTcent">
+           Вылет: Москва , 13 мая в 0:30.Аэропорт:Домодедово<br><br>
+           В пути: 4 часа.<br><br>
+           Прилет: Санкт-Петербург, 13 мая в 4:30. Аэропорт: Пулково. Цена билета:11000
+       </p>
+      <button id="ton" class="brton" onclick="document.location='opl1.html'">Забронировать</button>
+      <input type="image" id="button" name="img" src="heartblack.png" width="50" />
+     
+     </div>
+ </div>
+ <div class="reisi2">
+  
+  <p class="resT">
+   Рейс №69 <br><br><br> Судно: Аэрофлот
+  </p>
+  <p class="resTcent1">
+      Вылет: Москва, 15 мая в 8:30.Аэропорт:Домодедово<br><br>
+      В пути: 1 час 30 минут.<br><br>
+      Прилет: Сочи, 15 мая в 10:00. Аэропорт: Сочи. Цена билета:12000
+  </p>
+ <button id="ton1" class="brton1" onclick="document.location='opl1.html'">Забронировать</button>
+ <input type="image" id="button1" name="img" src="heartblack.png" width="50" />
+ 
+</div>
+<div class="reisi3">
+  <p class="resT">
+   Рейс №69 <br><br><br> Судно: Аэрофлот
+  </p>
+  <p class="resTcent1">
+      Вылет: Москва, 17 мая в 10:30.Аэропорт:Домодедово<br><br>
+      В пути: 4 час 30 минут.<br><br>
+      Прилет: Новосибирск, 18 мая в 15:00. Аэропорт: Толмачево. Цена билета:10000
+  </p>
+ <button  id="ton2" class="brton1" onclick="document.location='opl1.html'">Забронировать</button>
+ <input type="image" id="button2" name="img" src="heartblack.png" width="50" />
+ 
+</div>
+
+<footer class="footer2">
+  <div class="conteiner">
+    <div class="footer-block">
+      <img class="logF" src="img/Logo.png">
+      <nav class="footer-nav">
+        <a href="index.html" class="footer-link">Домой</a>
+        <a href="register.html" class="footer-link">Регистрация</a>
+        <a href="index.html" class="footer-link">Контакты</a>
+        <a href="index.html" class="footer-link">Новости</a>
+        <a href="index.html#review" class="footer-link">Отзывы</a>
+      </nav>
+      <div class="social-links">
+        <a href="#" class="social-link"><img class="prikol" src="img/inst.png" alt="instagram"></a>
+        <a href="#" class="social-link"><img class="prikol" src="img/facebook.png" alt="facebook"></a>
+        <a href="#" class="social-link"><img class="prikol" src="img/vk.png" alt="vkontakte"></a>
+        <div class="test-0-phone social-link">
+          8 (800) 100-10-10
+        </div>
+      </div>
+    </div>
+  </div>
+</footer>
+<script src="js/script.js"></script>
+</body>
+</html>

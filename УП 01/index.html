@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+
+    <title>Document</title>
+</head>
+<body>
+    <header>
+           <div class="Verh">
+             <img class="logF" src="img/Logo.png">
+             <a class="logT" href="index.html">FlightPool</p>
+             <a class="log2" href="index.html#bilet">Поиск билетов</a>
+             <button class="open-popup" id="open-modal-btn" href="">Профиль</button >
+             <a class="logA1" href="index.html#act222">Акции</a>
+           </div>
+    </header>
+<div class="princip">
+    «FlightPool» – новая и энергичная авиакомпания, <br>предоставляющая услуги пассажирских авиаперевозок небольшими малогабаритными самолетами.<br>Главная цель компании – развить связность между городами России<br> путем организации авиасообщений на непостоянной основе по мере накопления запросов на перелет. <br><br><p class="da22">Основные принципы работы сервиса: 
+      1.    Выбрать удобную дату перелета.
+      2.    Накопить больше 50% бронирований на рейс.
+      3.    Получить снижение стоимости.</p>
+</div>
+
+<div class="modal" id="my-modal">
+  <div class="modal__box">
+    <button id="close-my-modal-btn">
+      <img class="rottogoimel" src="img/close.png">
+    </button>
+    <form action="laspl.html">
+    <h2>Вход</h2>
+    Введите телефон:
+    <br>
+    <input type="tel"  required>
+    <br>
+    Введите пароль:
+    <br>
+    <input class="pass" type="password" placeholder="Введите пароль"  pattern="(?=.*\d)(?=.*[\W_]).{7,}" title="Минимум 7 значений и 1 цифра" required>
+    <br><br>
+    <button>Войти </button>
+    <br>
+    Нет аккаунта?<br><a class="regis" href="register.html">Зарегестрируйся</a> прямо сейчас!
+  </form>
+  </div>
+</div>
+
+</div>
+<div class="pravo">
+    <div id="slider">
+        <img src="img/sleider/1.jpg">
+        <img src="img/sleider/2.jpg">
+        <img src="img/sleider/3.jpg">
+        <img src="img/sleider/4.jpg">
+        <img src="img/sleider/5.jpg">
+        <img src="img/sleider/6.jpg">
+  </div>
+
+<p class="Fligh">Наш штаб в "FlightPool"</p>
+</div>
+
+<div id="bilet" class="bilet">
+    <form action="bron.html">
+        <p class="sellT">Поиск дешёвых авиабилетов</p>
+        <input class="ot3" placeholder="Откуда" required>
+        <input class="ot1" placeholder="Куда" required>
+        <input type="date" class="ot" placeholder="Когда" required>
+        <input type="date" class="ot4" placeholder="Обратно" required>
+        <p class="tit">Когда туда:</p>
+        <p class="tit1">Когда обратно:</p>
+        <p class="tit2">Количество пассажиров:</p>
+        <select class="ot2">
+          <option>1 человек</option>
+          <option>2 человек</option>
+          <option>3 человек</option>
+          <option>4 человек</option>
+          <option>5 человек</option>
+          <option>6 человек</option>
+          <option>7 человек</option>
+        </select>
+       
+        <button class="go"> Найти</button>
+        </form>
+</div>
+<div class="actions" id="act222">
+  <p class="actT">Наши Акции</p>
+  <div class="act1"><div class="act1T">Возврат и изменение ваших билетов<br><br>
+    Пандемия изменила планы многих путешественников, но мы знаем, что она не будет длиться вечно.<br>
+    Как только все это закончится, мы продолжим исследовать этот мир так, как раньше.<br>
+    Специальные правила, разработанные для этой непростой ситуации, помогут вам отменить поездку.
+    или отложить на потом.</div><img class="act1F" src="img/promotion1.jpg"></div>
+  <div class="act2"><div class="act2T">Лучшие предложения<br><br>Чтобы снова увидеть улицы, которые были свидетелями так много.<br> Чтобы обнять своих любимых и оглянуться, чтобы увидеть
+    через что вы прошли.<br> И думать о новых мечтах, которые будут такими особенными!<img class="act2F" src="img/promotion2.jpg">
+  </div>
+  </div>
+  <div class="act3"><div class="act2T">Увидимся чаще<br><br>С начала января мы расширяем географию полетов по России, чтобы вы могли чаще видеться с любимыми.<br> Выбирайте нашу компанию, чтобы лететь туда, где вас всегда ждут.<img class="act3F" src="img/promotion3.jpg">
+  </div>
+  </div>
+  <div class="act4"><div class="act2T">Все снова включено<br><br>С 10 августа мы возобновим полеты в Турцию.<br> Рейсы из Москвы в Анталию будут выполняться дважды в день ежедневно, а рейсы по маршруту Москва — Даламан будут выполняться от трех до семи раз в неделю.<img class="act4F" src="img/promotion4.jpg">
+  </div>
+  </div>
+</div>
+<div class="reg">
+    <div class="close">
+      <p class="txtcl">Подпишитесь на наши закрытые Акции</p>
+      <form>
+      <input class="closetxt" type="mail" placeholder="Введите свою почту" required>
+      <button class="closeBut">Подтвердить</button>
+    </form>
+    </div>
+</div>
+<div class="otziv">
+    <div class="otzivv">
+      Отзывы
+    </div>
+    <div id="review" class="sms">
+      <div class="txtOT"> 
+         <div class="sharik"></div>
+         <img class="ava" src="img/ava.png"><p class="smsT">Пользователь</p>
+         Быстрый и удобный сервис! Мне очень понравилось 
+      </div>
+    </div>
+    <div class="sms">
+      <div class="txtOT"> 
+         <div class="sharik"></div>
+         <img class="ava" src="img/ava.png"><p class="smsT">Пользователь</p>
+         Быстрый и удобный сервис! Мне очень понравилось 
+      </div>
+    </div>
+    <div class="sms">
+      <div class="txtOT"> 
+         <div class="sharik"></div>
+         <img class="ava" src="img/ava.png"><p class="smsT">Пользователь</p>
+         Быстрый и удобный сервис! Мне очень понравилось 
+      </div>
+    </div>
+    <div class="sms">
+      <div class="txtOT"> 
+         <div class="sharik"></div>
+         <img class="ava" src="img/ava.png"><p class="smsT">Пользователь</p>
+         Быстрый и удобный сервис! Мне очень понравилось 
+      </div>
+    </div>
+    <div class="sms">
+      <div class="txtOT"> 
+         <div class="sharik"></div>
+         <img class="ava" src="img/ava.png"><p class="smsT">Пользователь</p>
+         Быстрый и удобный сервис! Мне очень понравилось 
+      </div>
+    </div>
+
+</div>
+<footer class="footer">
+  <div class="conteiner">
+    <div class="footer-block">
+      <img class="logF" src="img/Logo.png">
+      <nav class="footer-nav">
+        <a href="index.html" class="footer-link">Домой</a>
+        <a href="register.html" class="footer-link">Регистрация</a>
+        <a href="index.html" class="footer-link">Контакты</a>
+        <a href="index.html" class="footer-link">Новости</a>
+        <a href="index.html#review" class="footer-link">Отзывы</a>
+      </nav>
+      <div class="social-links">
+        <a href="#" class="social-link"><img class="prikol" src="img/inst.png" alt="instagram"></a>
+        <a href="#" class="social-link"><img class="prikol" src="img/facebook.png" alt="facebook"></a>
+        <a href="#" class="social-link"><img class="prikol" src="img/vk.png" alt="vkontakte"></a>
+        <div class="test-0-phone social-link">
+          8 (800) 100-10-10
+        </div>
+      </div>
+    </div>
+  </div>
+</footer>
+<script async src="js/index.js"></script> 
+</body>
+</html>

@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Document</title>
+</head>
+<body>
+  <header>
+    <div class="Verh">
+      <img class="logF" src="img/Logo.png">
+      <a class="logT" href="index.html">FlightPool</p>
+      <a class="log2" href="index.html#bilet">Поиск билетов</a>
+      <button class="open-popup" id="open-modal-btn" href="">Профиль</button >
+      <a class="logA1" href="index.html#act222">Акции</a>
+    </div>
+</header>
+
+
+<div class="modal" id="my-modal">
+<div class="modal__box">
+<button id="close-my-modal-btn">
+<img class="rottogoimel" src="img/close.png">
+</button>
+<form action="laspl.html">
+  <h2>Вход</h2>
+  Введите телефон:
+  <br>
+  <input type="tel"  required>
+  <br>
+  Введите пароль:
+  <br>
+  <input class="pass" type="password" placeholder="Введите пароль"  pattern="(?=.*\d)(?=.*[\W_]).{7,}" title="Минимум 7 значений и 1 цифра" required>
+  <br><br>
+  <button>Войти </button>
+  <br>
+  Нет аккаунта?<br><a class="regis" href="register.html">Зарегестрируйся</a> прямо сейчас!
+</form>
+</div>
+</div>
+ <div class="opl1">
+    <p class="textOPL">
+        Номер рейса: 58
+        <br><br>
+        Город вылета: Москва
+        <br><br>
+        Аэропорт: Домодедово
+        <br><br>
+        Вылет: 13.05.2023
+        <br><br>
+        Время вылета: 0:30
+        <br><br>
+        Город прилета: Санкт-Петербург
+        <br><br>
+        Аэропорт: Пулково
+        <br><br>
+        Время прилета: 4:30
+        <br><br>
+        Стоимость: 11.000
+        <hr>
+        Пассажир:
+        <br><br>
+        <form>
+        <input  class="oplINT"placeholder="Имя" required>
+        <br><br>
+        <input  class="oplINT"placeholder="Фамилия" required>
+        <br><br>
+        Дата Рождения:
+        <br><br>
+        <input class="oplINT" type="date" placeholder="Фамилия" required>
+        <br><br>
+        <input  class="oplINT"placeholder="номер документа" required>
+        <br><br>
+        Количество пассажиров
+        <br><br>
+       <form onsubmit="return false;">
+        <input id="odin1" type="number" value="1" oninput="kalkulyator()"> 
+        <br><br>
+        <output id="rezultat2">11000</output>
+        <script type="text/javascript">
+            function kalkulyator(){
+              var rezultat2 = 11000;
+              rezultat2 *= parseFloat(document.getElementById('odin1').value);
+              document.getElementById('rezultat2').innerHTML = rezultat2;
+            }
+            </script>
+        <br><br>
+        <button id="fuf" class="confirm">Забронировать</button>
+        </form>
+    </p>
+    <footer class="footer3">
+      <div class="conteiner">
+        <div class="footer-block">
+          <img class="logF" src="img/Logo.png">
+          <nav class="footer-nav">
+            <a href="index.html" class="footer-link">Домой</a>
+            <a href="register.html" class="footer-link">Регистрация</a>
+            <a href="index.html" class="footer-link">Контакты</a>
+            <a href="index.html" class="footer-link">Новости</a>
+            <a href="index.html#review" class="footer-link">Отзывы</a>
+          </nav>
+          <div class="social-links">
+            <a href="#" class="social-link"><img class="prikol" src="img/inst.png" alt="instagram"></a>
+            <a href="#" class="social-link"><img class="prikol" src="img/facebook.png" alt="facebook"></a>
+            <a href="#" class="social-link"><img class="prikol" src="img/vk.png" alt="vkontakte"></a>
+            <div class="test-0-phone social-link">
+              8 (800) 100-10-10
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+ </div>
+<script src="js/js.js"></script>
+</body>
+</html>
